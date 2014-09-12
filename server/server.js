@@ -31,9 +31,10 @@ app.use(loopback.errorHandler());
 
 app.start = function() {
   // start the web server
-  return app.listen(function() {
+  var port = 3001;
+  return app.listen(port, function() {
     app.emit('started');
-    console.log('Web server listening at: %s', app.get('url'));
+    console.log('Web server listening at: %s', app.get('url') + " : Really on port: " + port);
   });
 };
 

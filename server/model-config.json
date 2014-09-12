@@ -8,6 +8,9 @@
   "User": {
     "dataSource": "db"
   },
+  "Account": {
+    "dataSource": "db"
+  },
   "AccessToken": {
     "dataSource": "db",
     "public": false
