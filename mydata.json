@@ -1,0 +1,20 @@
+{
+  "ids": {
+    "User": 1,
+    "Account": 2,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1
+  },
+  "models": {
+    "User": {},
+    "Account": {
+      "1": "{\"email\":\"tony@iRelate.us\",\"first_name\":\"Tony\",\"last_name\":\"Sukiennik\",\"realm\":\"Earth\",\"username\":\"tonysoft\",\"password\":\"$2a$10$8l64lIstf4eRFsLYchBGWepuDX9CVuT68sGHKiB/1W6GxtNkLGem6\",\"credentials\":\"object\",\"challenges\":\"object\",\"emailVerified\":false,\"verificationToken\":\"\",\"status\":\"\",\"created\":null,\"lastUpdated\":null,\"id\":1}"
+    },
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {}
+  }
+}

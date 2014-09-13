@@ -31,7 +31,12 @@ app.use(loopback.errorHandler());
 
 app.start = function() {
   // start the web server
-  var port = 3001;
+  var port = process.env.PORT;
+  console.log(port)
+  if (!port) {
+  	port = 3000;
+  }
+  console.log(port)
   return app.listen(port, function() {
     app.emit('started');
     console.log('Web server listening at: %s', app.get('url') + " : Really on port: " + port);

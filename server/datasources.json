@@ -1,6 +1,13 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory"
+    "connector": "memory",
+    "file" : "mydata.json"
+  },
+  "mongo": {
+    "url": "mongodb://tonystrong:tonystrong@kahana.mongohq.com:10008/tonystrong",
+    "name": "mongo",
+    "connector": "loopback-connector-mongodb",
+    "debug": true
   }
 }
